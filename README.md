@@ -6,6 +6,7 @@ SnakeMake is a pipeline manager for bioinformatic analyses. To make sure SnakeMa
 $ cd ~/.config/snakemake
 $ git clone https://github.com/maxsonBraunLab/slurm.git
 $ cd slurm # edit cluster.yaml and save the changes
+$ chmod +x *.py *.sh # add execution permission to every py and sh file
 ```
 
 When editing the `cluster.yaml` file, you can set default arguments to your snakemake submission command. See the following example:
